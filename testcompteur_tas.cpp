@@ -5,6 +5,8 @@ int main ()
   int compt = 0, modul = 6, n = 0, choix, stop;
 
 //Pointeurs
+    cout<<"Quelle valeur max voullez vous donner au compteur ?"<<endl;
+    cin>>modul;
 
   Compt *pt_c1 = new Compt(compt, modul);	//creation de l'objet c1 de class Compt
 
