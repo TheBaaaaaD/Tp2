@@ -27,7 +27,7 @@ int main ()
 	  break;
 
 	case 3:
-	  c1.getEtat ();	//appel de la fonction getEtat
+	  cout<<"Le compteur vaut : "<<c1.getEtat ()<<endl;	//appel de la fonction getEtat
 	  break;
 	}
       cout << "Voullez vous continuer ?\n1-Oui\n0-Non" << endl;
